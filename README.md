@@ -1,0 +1,1 @@
+Pour installer les packages de **requirements.txt** : *pip install -r requirements.txt*
