@@ -1,0 +1,22 @@
+
+dans div id="player-box :
+    - div class="player_info":
+        div class="player_stats" récupérer :
+            - Nom
+            - Points
+            - Classement ATP
+            - Total de matchs
+            - Victoires
+            - Taux de réussite
+
+        Les 3 premiers servirais de clé unique pour merge avec les données de scraping_top_900_H
+    
+    - div class="player_match_info":
+        - table class="table_stats":
+            - récupérer toutes les stats 
+            - faire une classe spéciale pour ce tableau
+
+
+
+
+
