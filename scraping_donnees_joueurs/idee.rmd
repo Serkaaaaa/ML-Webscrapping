@@ -1,6 +1,8 @@
+récupérer les liens des joueurs -> boucle : faire une requete sur chaque lien -> renvoie sur la page du joueur :
 
+profil + statistiques:
 dans div id="player-box :
-    - div class="player_info":
+    - div class="player_info": profil
         div class="player_stats" récupérer :
             - Nom
             - Points
@@ -11,10 +13,35 @@ dans div id="player-box :
 
         Les 3 premiers servirais de clé unique pour merge avec les données de scraping_top_900_H
     
-    - div class="player_match_info":
+    - div class="player_match_info": statistiques
         - table class="table_stats":
-            - récupérer toutes les stats 
+            - récupérer toutes les stats
             - faire une classe spéciale pour ce tableau
+
+50 derniers matches:
+dans div class="player_matches":
+    - table class="table_pmatches":
+        - tr class="tour_head pair":
+            - 9 colonnes : 
+                - Date
+                - Stage
+                - Nom vainqueur
+                - Nom perdant
+                - Score (set > jeu(W-L))
+                - Victoire/Défaite
+                - Détail du match
+                - Tournoi
+                - Type de terrain
+
+        - tr class="pair/unpair":
+            - 7 colonnes : 
+                - Date
+                - Stage
+                - Nom vainqueur
+                - Nom perdant
+                - Score (set > jeu(W-L))
+                - Victoire/Défaite
+                - Détail du match
 
 
 
