@@ -45,5 +45,5 @@ dans div class="player_matches":
 
 
 
-
+fusionner les données recolter et faire de statistique une variable par annee + type terrain, exemple : 2024_terre_battue, 2024_dure, ...
 
